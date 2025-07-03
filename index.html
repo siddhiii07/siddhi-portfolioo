@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barrio&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=VT323&display=swap"
+        rel="stylesheet">
+
+    <style>
+        body {
+            /*background-color: #2F5249;*/
+            font-family: "Bitcount Grid Double", system-ui;
+            padding: 0;
+            margin: 0;
+        }
+
+        .container1 {
+            height: 95vh;
+        }
+
+        .nav-logo {
+            background-color: white;
+            border-radius: 100%;
+            padding: 4px;
+        }
+
+        .gradient-bg {
+            background-image:
+                linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgb(60, 234, 170) 100%),
+                url('../Portfolio/assets/images/cat_bg.png');
+            background-blend-mode: multiply;
+            background-size: cover;
+
+        }
+
+        .gradient-bg ul {
+            background-color: black;
+        }
+
+        .gradient-bg li {
+            color: #ffffff;
+            opacity: 1;
+            margin-right: 2em;
+            list-style-type: none;
+
+        }
+
+        .container1 li a:hover {
+            color: #998b5a;
+        }
+
+        .nav {
+            background-color: #040e0c;
+            border-radius: 6px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .container1 h2 {
+            color: rgb(242, 238, 238);
+            font-size: 20px;
+        }
+
+        .container1 p {
+            color: rgb(240, 234, 48);
+            font-size: 15px;
+        }
+
+        .container2 {
+            background-image:
+                linear-gradient(0deg, rgb(60, 234, 170) 0%, rgb(12, 19, 13) 100%),
+                url('../Portfolio/assets/images/cat_bg.png');
+            background-blend-mode: multiply;
+            min-height: 80vh;
+            background-size: cover;
+        }
+
+        .project_container {
+            border-radius: 8px;
+            background-color: #c8d8b1;
+            padding: 2em;
+            overflow: hidden;
+            max-height: fit-content;
+            margin: 20px;
+        }
+
+        .project_container:hover {
+            box-shadow: 1px 1px 40px 2px rgb(99, 150, 111);
+        }
+
+        .head {
+            background-color: black;
+            padding: 10px;
+            color: yellow;
+            font-family: "Silkscreen", sans-serif;
+        }
+
+        .container-body {
+            color: #030202;
+            font-family: "Pixelify Sans", sans-serif;
+            text-align: justify;
+        }
+
+
+        .container3 {
+            min-height: 80vh;
+            background-image:
+                linear-gradient(0deg, rgb(31, 113, 66) 0%, rgb(6, 8, 6) 100%),
+                url('../Portfolio/assets/images/cat_bg.png');
+            background-blend-mode: multiply;
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: "Silkscreen", sans-serif;
+        }
+
+        .hob_container {
+            width: 400px;
+            background-color: #c8d8b1;
+            padding: 20px;
+            border-radius: 7px;
+            margin: 10px;
+            font-size: 30px;
+        }
+
+        .hob_container h4 {
+            color: rgb(58, 92, 66);
+        }
+
+        .container4 {
+            /*background-image:
+                linear-gradient(0deg, rgb(31, 113, 66) 0%, rgb(6, 8, 6) 100%),
+                url('../Portfolio/assets/images/cat_bg.png');
+            background-blend-mode: multiply;
+            background-repeat: no-repeat;
+            background-size: cover;*/
+            background-color: #030202;
+            font-family: "Pixelify Sans", sans-serif;
+        }
+
+        .inner-container{
+            width: fit-content;
+        }
+
+        .container5{
+            background-image:
+                linear-gradient(0deg, rgb(31, 113, 66) 0%, rgb(6, 8, 6) 100%),
+                url('../Portfolio/assets/images/cat_bg.png');
+            background-blend-mode: multiply;
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: "Pixelify Sans", sans-serif;
+        }
+
+        .contact{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!--Navbar-->
+
+    <div class="container1 gradient-bg pt-3 text-center">
+        <ul class=" p-3 d-lg-flex justify-content-center align-items-center mx-5 rounded">
+            <div class="nav-logo mx-5">
+                <img src="../Portfolio/assets/images/shining_cat.png" alt="sloth" height="30" class="rounded-circle">
+            </div>
+            <li class="nav-items "><a class="nav-link " href="#">Home</a></li>
+            <li class="nav-items "><a class="nav-link" href="#">Projects</a></li>
+            <li class="nav-items "><a class="nav-link" href="#">Hobbies</a></li>
+            <li class="nav-items "><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+        <div>
+            <img src="../Portfolio/assets/images/naahedo☆.jpg" class="shadow rounded-circle my-5"
+                alt="alien_pixelerated" height="300">
+            <h2 class="">I am a Web devleoper!</h2>
+            <p>i Lovee designing.</p>
+        </div>
+    </div>
+
+    <section>
+        <div class="container2 text-center p-5">
+            <h1 class="text-light fs-100 mb-5">Projects</h1>
+            <div class="d-lg-flex justify-content-center  ">
+                <div class="project_container">
+                    <div class="head">
+                        Brain Tumor Detection
+                    </div>
+                    <hr>
+                    <div class="container-body">
+                        <p>Brain tumor detection is the website which helps users to find dog friends for their own dogs
+                            therough
+                            interacting with them on this website, helloo i am siddhii.i live in chembur.</p>
+                    </div>
+                </div>
+                <div class="project_container">
+                    <div class="head">
+                        Tindog
+                    </div>
+                    <hr>
+                    <div class="container-body">
+                        <p>Tindog is the website which helps users to find dog friends for their own dogs therough
+                            interacting with them on this website..find love for your dog</p>
+                    </div>
+                </div>
+                <div class="project_container">
+                    <div class="head">
+                        Portfolio
+                    </div>
+                    <hr>
+                    <div class="container-body">
+                        <p>My portfolio which presents my skills and education, hobbies. The website is build by using
+                            the knowledge of html,css bootstrap framework for now.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container3 text-center p-5">
+            <h1 class="text-light fs-100 mb-4">Hobbies</h1>
+            <div class="d-lg-flex gap-2 justify-content-center  ">
+                <div class="hob_container">
+                    <div>
+                        <h4>Photo & Video Editing </h4>
+                    </div>
+                    <div>
+                        <img src="../Portfolio/assets/images/girl_editing_aesthetic.png" class="rounded-circle m-2"
+                            alt="editing" height="200">
+                    </div>
+                </div>
+                <div class="hob_container">
+                    <div>
+                        <h4>Staying at home like a lazy ass</h4>
+                    </div>
+                    <img src="../Portfolio/assets/images/stay_home.png" class="rounded m-2" alt="otter" height="200">
+                </div>
+
+                <div class="hob_container ">
+                    <div>
+                        <h4>Watching Movies & Series </h4>
+                    </div>
+                    <div>
+                        <img src="../Portfolio/assets/images/girlwatchingmovies_icons.png" class="rounded-circle m-2"
+                            height="200" alt="watching_movies">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container4 text-light p-5">
+            <div class="row justify-content-center ">
+                <div class=" col-lg-2 col-sm contact">
+                    <a class="text-decoration-none text-light" href="#"><img src="../Portfolio/assets/images/instagram.png" alt="instagram" height="40">
+                    <p>ig_naahedooo.</p></a>
+                </div>
+                <div class="col-lg-2 col-sm contact">
+                    <a class="text-decoration-none text-light" href="#"><img src="../Portfolio/assets/images/github.png" alt="github" height="40" class="bg-light rounded">
+                    <p>github_naahedooo.</p></a>
+                </div>
+                <div class=" col-lg-2 col-sm contact">
+                    <a class="text-decoration-none text-light" href="#"><img src="../Portfolio/assets/images/linkedin.png" alt="linkedin" height="40">
+                    <p>linkedin_naahedooo.</p></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container5 p-5">
+            <div class="d-flex justify-content-center align-items-center p-3">
+                <img src="../Portfolio/assets/images/shining_cat.png" class="rounded-circle mx-3" alt="shining_cat"
+                    height="70">
+                <div class="text-light ">
+                    <p>Made with love ☆</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
